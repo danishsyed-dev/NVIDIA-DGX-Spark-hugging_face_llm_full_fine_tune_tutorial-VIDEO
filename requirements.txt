@@ -1,0 +1,19 @@
+# Core dependencies for fine-tuning Gemma 3 270M
+transformers>=4.56.1
+trl>=0.26.0
+datasets>=3.0.0
+accelerate>=1.0.0
+torch>=2.0.0
+
+# For interactive demo
+gradio>=5.0.0
+
+# Utilities
+numpy>=1.17
+pandas>=1.0
+
+# For GPU support (automatically handled by Colab)
+# nvidia-cuda-runtime-cu12
+
+# Optional: For Hugging Face Hub access
+huggingface_hub>=0.21.0

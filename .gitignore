@@ -34,6 +34,7 @@ Thumbs.db
 *.json
 !package.json
 
+
 # Logs
 *.log
 logs/
@@ -41,3 +42,6 @@ logs/
 # Cache
 .cache/
 huggingface/
+
+# Fully Fine-Tuned a SLM-Gemma 3 270M.pdf
+Fully Fine-Tune a SLM-Gemma 3 270M.pdf
