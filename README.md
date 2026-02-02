@@ -1,3 +1,16 @@
+---
+title: FoodExtract v1
+emoji: 🍕
+colorFrom: orange
+colorTo: red
+sdk: gradio
+sdk_version: 5.0.0
+app_file: app.py
+pinned: false
+license: mit
+short_description: Extract food and drink items from text using fine-tuned Gemma 3
+---
+
 # 🍕 Fully Fine-Tune a Small Language Model (Gemma 3 270M)
 
 A tutorial on how to fully fine-tune Google's Gemma 3 270M model using Hugging Face libraries to extract food and drink items from text.
