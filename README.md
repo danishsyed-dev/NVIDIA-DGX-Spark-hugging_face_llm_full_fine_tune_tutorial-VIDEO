@@ -8,6 +8,7 @@ sdk_version: 5.0.0
 app_file: app.py
 pinned: false
 license: mit
+python_version: "3.11"
 short_description: Extract food & drinks from text with Gemma 3
 ---
 
