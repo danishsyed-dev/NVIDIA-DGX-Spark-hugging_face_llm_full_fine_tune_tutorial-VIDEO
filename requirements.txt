@@ -1,10 +1,11 @@
 # Core dependencies for FoodExtract Gradio App
+# Pin versions for compatibility
 transformers>=4.45.0
 torch>=2.0.0
 accelerate>=1.0.0
 
-# For interactive demo
-gradio>=5.0.0
+# Gradio - let HF Spaces handle the version
+# (HF Spaces auto-installs gradio[oauth,mcp]==6.3.0)
 
-# Hugging Face Hub access
-huggingface_hub>=0.21.0
+# Hugging Face Hub - pin to compatible version
+huggingface_hub>=0.25.0,<0.27.0
