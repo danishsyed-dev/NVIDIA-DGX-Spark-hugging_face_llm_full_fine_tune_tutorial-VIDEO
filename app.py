@@ -7,8 +7,8 @@ import gradio as gr
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
-# Model configuration
-MODEL_ID = "danishali11903/gemma-3-270m-it-FoodExtract-v1"  # Update with your model ID
+# Model configuration - Using mrdbourke's pre-trained FoodExtract model
+MODEL_ID = "mrdbourke/FoodExtract-gemma-3-270m-fine-tune-v1"
 
 # System prompt for the model
 SYSTEM_PROMPT = """You are a helpful assistant that extracts food and drink information from text.
@@ -136,7 +136,7 @@ with gr.Blocks(
     
     ### 📚 Resources
     - [Fine-tuning Tutorial](https://github.com/danishsyed-dev/NVIDIA-DGX-Spark-hugging_face_llm_full_fine_tune_tutorial-VIDEO)
-    - [Model on Hugging Face](https://huggingface.co/danishali11903/gemma-3-270m-it-FoodExtract-v1)
+    - [Model on Hugging Face](https://huggingface.co/mrdbourke/FoodExtract-gemma-3-270m-fine-tune-v1)
     """)
     
     submit_btn.click(
